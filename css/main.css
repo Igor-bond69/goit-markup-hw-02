@@ -1,0 +1,76 @@
+body {
+  background-color: #ffffff;
+  color: #212121;
+}
+.list {
+  list-style: none;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  color: #000000;
+}
+
+.logo:hover {
+  color: aqua;
+}
+
+/* site nav */
+.site-nav .link {
+  color: ;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: ;
+}
+
+.site-nav .link.current {
+  color: ;
+}
+
+/* hero */
+
+.hero-title {
+  color: ;
+}
+
+/* section */
+
+.section-title {
+  color: ;
+}
+
+/* advantages */
+
+/* button */
+
+.button :hover {
+  color: #fff;
+}
+
+.button-primary {
+  color: #ffffff;
+}
+.button-primary:hover {
+  color: #2196f3;
+}
+
+.button-secondary {
+  color: #212121;
+  background-color: ;
+}
+a {
+  text-decoration: none;
+}
+.item {
+  display: none;
+}
+h2 {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+}
