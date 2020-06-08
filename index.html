@@ -6,12 +6,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/main.css" />
   </head>
-
   <body>
     <header>
       <nav>
-        <a href="/" class="logo">Web Studio</a>
-
+        <a href="/" class="logo">Web</a>
+        <a href="/" class="internet">Studio</a>
         <ul class="site-nav list">
           <li><a href="/" class="link current">Студия</a></li>
           <li><a href="./portfolio.html" class="link">Портфолио</a></li>
@@ -19,18 +18,17 @@
         </ul>
       </nav>
       <img src="./images/email.svg" alt="" />
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a class="kolo" href="mailto:info@devstudio.com">info@devstudio.com</a>
       <img src="./images/smartphone.svg" alt="" />
-      <a href="tel:+380961111111">+380961111111</a>
+      <a class="phone" href="tel:+380961111111">+380961111111</a>
     </header>
     <main>
       <!--    Герой -->
       <div>
         <section class="hero">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <a href="">Заказать услугу</a>
+          <button class="but" type="button">Заказать услугу</button>
         </section>
-
         <!-- Преимущества -->
       </div>
       <section class="section">
@@ -91,15 +89,13 @@
           </li>
         </ul>
       </section>
-
       <!-- Члены команды -->
-
       <section class="section">
         <h2 class="section-title">Наша команда</h2>
         <ul>
           <li>
             <img src="./images/john.png" alt="" />
-            <h4 class="section-title">John Smith</h4>
+            <h4 class="section-title">Николай Кучеренко</h4>
             <p>Product Designer</p>
             <ul>
               <li>
@@ -114,7 +110,7 @@
         <ul>
           <li>
             <img src="./images/girl.png" alt="" />
-            <h4 class="section-title">Marta Stewart</h4>
+            <h4 class="section-title">Ольга Иванова</h4>
             <p>Frontend Developer</p>
             <ul>
               <li>
@@ -129,7 +125,7 @@
         <ul>
           <li>
             <img src="./images/men.png" alt="" />
-            <h4 class="section-title">Robert Jakis</h4>
+            <h4 class="section-title">Андрей Шевченко</h4>
             <p>Marketing</p>
             <ul>
               <li>
@@ -144,7 +140,7 @@
         <ul>
           <li>
             <img src="./images/martin.png" alt="" />
-            <h4 class="section-title">Martin Doe</h4>
+            <h4 class="section-title">Иван Николаев</h4>
             <p>UI Designer</p>
             <ul>
               <li>
@@ -157,9 +153,7 @@
           </li>
         </ul>
       </section>
-
       <!-- Наши клиенты -->
-
       <section class="section">
         <h2 class="section-title">Постоянные клиенты</h2>
         <ul>
@@ -172,21 +166,39 @@
         </ul>
       </section>
     </main>
-
-    <footer>
-      <a href="/">Web Studio</a>
+    <footer class="down">
+      <a class="logo" href="/">Web</a>
+      <a class="internet" href="/">Studio</a>
       <address>
-        <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <a href="mailto:info@example.com">info@example.com</a>
-        <a href="tel:+380991111111">+380991111111</a>
+        <p class="street">г. Киев, пр-т Леси Украинки, 26</p>
+        <a class="kolo" href="mailto:info@example.com">info@example.com</a
+        ><br />
+        <a class="phone" href="tel:+380991111111">+380991111111</a>
       </address>
-      <p>присоединяйтесь</p>
+      <p class="come">присоединяйтесь</p>
       <ul>
-        <li><a href="https://www.instagram.com/">Instargram</a></li>
-        <li><a href="https://twitter.com/">Twittter</a></li>
-        <li><a href="https://www.facebook.com/">Facebook</a></li>
-        <li><a href="https://www.linkedin.com/">Linkedin</a></li>
+        <li>
+          <img src="./images/instagram.svg" alt="" /><a
+            href="https://www.instagram.com/"
+          ></a>
+        </li>
+        <li>
+          <img src="./images/twitter.svg" alt="" /><a
+            href="https://twitter.com/"
+          ></a>
+        </li>
+        <li>
+          <img src="./images/facebook.svg" alt="" /><a
+            href="https://www.facebook.com/"
+          ></a>
+        </li>
+        <li>
+          <img src="./images/linkedin.svg" alt="" /><a
+            href="https://www.linkedin.com/"
+          ></a>
+        </li>
       </ul>
+      <button class="but" type="button">Подписаться</button>
     </footer>
   </body>
 </html>

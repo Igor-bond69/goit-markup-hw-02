@@ -2,6 +2,9 @@ body {
   background-color: #ffffff;
   color: #212121;
 }
+ul {
+  list-style: none;
+}
 .list {
   list-style: none;
 }
@@ -9,15 +12,23 @@ body {
 .logo {
   font-family: Raleway, sans-serif;
   color: #000000;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .logo:hover {
-  color: aqua;
+  color: brown;
 }
 
 /* site nav */
-.site-nav .link {
-  color: ;
+
+.link.current {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #2196f3;
 }
 
 .site-nav .link:hover,
@@ -38,22 +49,29 @@ body {
 /* section */
 
 .section-title {
-  color: ;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  color: #212121;
 }
 
 /* advantages */
 
 /* button */
-
-.button :hover {
-  color: #fff;
-}
-
-.button-primary {
+.but {
   color: #ffffff;
+  background-color: #2196F3;
+  border-radius: 4px;
 }
-.button-primary:hover {
-  color: #2196f3;
+.button :hover {
+  color: aqua;
+}
+
+
+.button-primary :hover {
+ background: #2196F3;
 }
 
 .button-secondary {
@@ -73,4 +91,77 @@ h2 {
   font-size: 18px;
   line-height: 2;
   color: #212121;
+}
+.text {
+  color: #757575;
+}
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+}
+.internet {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+}
+.internet:hover {
+  color: greenyellow;
+}
+.link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+}
+.block {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+  background: rgba(33, 150, 243, 0.9);
+}
+.kolo {
+  color: #757575;0;
+}
+.kolo:hover {
+  color: #2196f3;
+}
+.phone:hover {
+  color: #2196f3;
+}
+.phone {
+  color: #757575;;
+}
+.come {
+  color: #ffffff;
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+} 
+.down {
+  background:  #2F303A;
+}
+.street {
+  color: #ffffff;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+}
+.dev{
+  color: #2196F3;
 }
