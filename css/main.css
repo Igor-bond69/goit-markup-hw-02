@@ -29,13 +29,17 @@ ul {
   list-style: none;
 }
 
-.logo {
+a.logo {
   font-family: Raleway, sans-serif;
-  color: var(--accent-color);
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  color: var(--accent-color);
+}
+
+.logo-header {
+  color: var(--logo-text-color);
 }
 
 .logo:hover {
@@ -44,18 +48,22 @@ ul {
 
 /* site nav */
 
+.site-nav .link {
+  color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--title-text-color);
+}
+
 .link.current {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  color: var(--accent-color);
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
+  color: var(--title-text-col-color);
 }
 
 .site-nav .link.current {
@@ -84,7 +92,7 @@ ul {
 /* button */
 .but {
   color: var(--primary-white-color);
-  background-color: ;
+  background-color: var(--accent-color);
   border-radius: 4px;
 }
 .button {
@@ -95,6 +103,15 @@ ul {
   color: var(--accent-color);
 }
 
+.button-style {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--primary-text-color);
+}
+.button-style :hover,
+.button-style :focus {
+  color: var(--accent-color);
+}
 .button-primary :hover {
   background: var(--accent-color);
 }
@@ -125,19 +142,6 @@ h2 {
   color: var(--section-text-color);
 }
 
-.internet {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  color: var(--logo-text-color);
-}
-
-.internet:hover {
-  color: var(--accent-color);
-}
-
 .link {
   font-family: Roboto;
   font-style: normal;
@@ -157,11 +161,11 @@ h2 {
   background: rgba(33, 150, 243, 0.9);
 }
 
-.kolo {
+.mail {
   color: var(--accent-color);
 }
 
-.kolo:hover {
+.mail:hover {
   color: var(--accent-color);
 }
 
@@ -183,18 +187,14 @@ h2 {
 }
 
 .down {
-  background: #2f303a;
+  background-color: #2f303a;
 }
 
 .street {
-  color: #ffffff;
+  color: var(--primary-white-color);
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-}
-
-.dev {
-  color: var(--accent-color);
 }
